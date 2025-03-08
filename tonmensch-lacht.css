@@ -1,0 +1,55 @@
+#reaction-button {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#reaction-button button.reaction {
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+  width: 30px;
+}
+
+#reaction-button button.reaction:nth-child(1) {
+    color: #008000;
+}
+
+#reaction-button button.reaction:nth-child(2) {
+    color: #800000;
+}
+
+#reaction-button button.reaction:nth-child(3) {
+    color: #008000;
+}
+
+#reaction-button button.reaction:nth-child(4) {
+    color: #0000FF;
+}
+
+#reaction-button button.reaction:nth-child(5) {
+    color: #800080;
+}
+
+#reaction-button button.reaction:nth-child(6) {
+    color: #FF0000;
+}
+
+#position-toggle {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px 10px;
+  cursor: pointer;
+}
+
+#position-toggle:hover {
+  background-color: #0077A3;
+}

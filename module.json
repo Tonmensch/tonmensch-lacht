@@ -1,0 +1,21 @@
+{
+  "id": "tonmensch-lacht",
+  "title": "Tonmensch Lacht",
+  "description": "Reaction Buttons mit random Flavor-Text PLUS Token-Reactions durch GM",
+  "version": "1.2.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12.331"
+  },
+  "authors": [
+    {
+      "name": "Tonmensch"
+    }
+  ],
+  "scripts": ["tonmensch-lacht.js"],
+  "esmodules": ["tonmensch-lacht.js"],
+  "styles": ["tonmensch-lacht.css"],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
